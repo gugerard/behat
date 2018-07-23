@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:latest
 
 MAINTAINER Leonid Makarov <leonid.makarov@ffwagency.com>
 
@@ -8,6 +8,7 @@ RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/commun
     git \
     unzip \
     php7 \
+    php-gd \
     php7-xml \
     php7-zip \
     php7-xmlreader \
