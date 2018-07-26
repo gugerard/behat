@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER Leonid Makarov <leonid.makarov@ffwagency.com>
 
-RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/community  add \
+RUN apk --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/latest/community  add \
     bash \
     curl \
     git \
